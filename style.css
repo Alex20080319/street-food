@@ -1,0 +1,70 @@
+body{
+    background-color: antiquewhite;
+}
+.main{
+    width: 1000px;
+    margin:25px auto;
+    padding: 25px;
+}
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-family: 'Sofia';
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+nav{
+    background-color: aquamarine;
+    margin: 25px 0;
+    font-size: large;
+    font-weight: bold;
+}
+nav ul{ 
+    list-style-type: none;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+    margin-left: 30px;
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+}
+nav li:hover{
+    background-color: darkseagreen;  
+    border-radius: 25px;  
+}
+nav a:hover{
+    color:aliceblue
+}
+.content {
+
+}
+div{
+    border: 1px solid black
+}
+.lezaro{
+    clear: both;
+    border:none;
+}
+.active{
+    color:aliceblue;
+    background-color: darkseagreen;  
+    border-radius: 25px;
+}
+nav ul li ul{
+    display:none;
+    position: absolute;
+   background-color: blanchedalmond;
+}
+nav ul li li{
+    border-bottom: 2px solid blue;
+    margin-bottom: 20px;
+}
+nav ul li:hover ul{
+    display: block;
+}

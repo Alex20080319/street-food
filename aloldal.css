@@ -1,0 +1,124 @@
+/* Alap stílusok */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 60px 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigációs sáv */
+nav {
+    background-color: #ff7f50;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #777;
+}
+
+nav li {
+    position: relative;
+    padding: 15px 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav li:hover {
+    background-color: #ff6347;
+    border-radius: 25px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #f4a261;
+    border-radius: 10px;
+    padding: 10px;
+    left: 0;
+    top: 100%;
+    min-width: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li li {
+    padding: 10px 20px;
+}
+
+nav ul li li:hover {
+    background-color: #e76f51;
+}
+
+/* Árak szekció */
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Kisebb eszközökre optimalizált nézet */
+@media screen and (max-width: 768px) {
+    table th, table td {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    table th, table td {
+        padding: 6px;
+    }
+}
+.koktel{
+    width: 100px;
+    height: 100px;
+}
